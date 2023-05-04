@@ -6,6 +6,7 @@
 
 }
 .wrapper>footer>.footer-top>ul{
+    display: none;
    
 }
 .wrapper>footer>.footer-top>ul>li{
