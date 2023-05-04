@@ -1,0 +1,105 @@
+.wrapper>header {
+    border: 1px solid;
+}
+
+.wrapper>header>.top-header {
+    height: 40px;
+    border: 1px solid ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper>header>.top-header>.logo {
+    height: 30px;
+    width: 100px;
+    border: 1px solid;
+    align-content: center;
+    text-align: center;
+    line-height: 30px;
+}
+
+.wrapper>header>.top-header>ul {
+    border: 1px solid;
+    
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.wrapper>header>.top-header>ul>li {
+    border: 1px solid;
+    width: 80px;
+    position: relative;
+    text-align: center;
+
+}
+
+
+ 
+.wrapper>header>.top-header>ul>li:last-child::before {
+    content: "";
+}
+.wrapper>header>.top-header>ul>li>a {
+  display: block;
+}
+
+.wrapper>header>.top-header>.sitemenu{
+ display: none;
+}
+
+.wrapper>header>nav {
+    border: 1px solid;
+}
+
+.wrapper>header>nav>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wrapper>header>nav>ul>li {
+    border: 1px solid;
+    width: 120px;
+    height: 30px;
+    line-height: 25px;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 120px;
+    position: relative;
+}
+
+.wrapper>header>nav>ul>li>a {
+    display: block;
+    
+}
+
+.wrapper>header>nav>ul>li>ul{
+    position: absolute;
+    border: 1px solid;
+    width: 100%;
+    left: -1px;
+    display: none;
+    
+    
+    
+    
+}
+.wrapper>header>nav>ul>li>ul>li{   
+    line-height: 30px;
+    border: 1px solid;
+    text-align: center;
+}
+
+.wrapper>header>nav>ul>li>ul>li>a{
+ display: block;
+}
+.wrapper>header>nav>ul>li:hover ul{
+   
+    display: block;
+}
+
+
+
